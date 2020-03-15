@@ -529,7 +529,7 @@ public class interfaCalcu extends javax.swing.JFrame {
         txtPila.setText(inf.Infijo2PosfijoTxt (txtPila.getText()+memoria2));
         txtPila.setLineWrap(true);
         txtPilaOpe.setText(inf.Infijo2PosfijoTxt (txtPilaOpe.getText()+signo));
-        //txtPilaOpe.setLineWrap(true);
+       
         
         //si memora 2 es diferente de blanco
         if (!memoria2.equals("")) {
